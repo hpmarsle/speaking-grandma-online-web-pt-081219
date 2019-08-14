@@ -1,6 +1,7 @@
 def speak_to_grandma(sentence)
-if sentence == sentence.upcase
-  puts "NO, NOT SINCE 1938!"
+  if sentence == sentence.upcase
+    puts "NO, NOT SINCE 1938!"
+    
 end
 
 # Whatever you say to grandma, she should respond with
